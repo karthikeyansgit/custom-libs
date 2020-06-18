@@ -14,3 +14,9 @@ ng build alerts-lib
 
 - cd dist/alerts-lib
 - npm pack
+
+## Install Custom Library to Project
+
+- npm install <drive>:\<folder-path>\dist\alerts-lib\alerts-lib-0.0.1.tgz
+
+Ex: npm install D:\libdemo\custom-libs\dist\alerts-lib\alerts-lib-0.0.1.tgz
