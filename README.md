@@ -1,27 +1,43 @@
-# CustomLibs
+# Create Custom Library
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
-## Development server
+## Install Dependencies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+npm install
 
-## Code scaffolding
+## Build Library
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng build alerts-lib
 
-## Build
+## Create a Pack file
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- cd dist/alerts-lib
+- npm pack
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+# Creating Libraries
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Getting started - Steps to Creating Libraries
 
-## Further help
+- ng new my-workspace --create-application=false
+- cd my-workspace
+- ng generate library my-lib
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Reference URL: https://angular.io/guide/creating-libraries
+
+## Build Library
+
+ng build my-lib
+
+## Create a Pack file
+
+- cd dist/my-lib
+- npm pack
+
+## Publishing your library
+
+- ng build my-lib --prod
+- cd dist/my-lib
+- npm publish
