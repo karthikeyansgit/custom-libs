@@ -1,0 +1,14 @@
+{
+  "name": "alerts-lib",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.1.11",
+    "@angular/core": "^9.1.11",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
